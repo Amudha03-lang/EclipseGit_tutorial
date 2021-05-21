@@ -10,6 +10,7 @@ public class Gmail_proj1 {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
+		System.out.println("First line in GMAIL Project");
 		System.setProperty("webdriver.chrome.driver", "D:\\Tool\\chromedriver_win32\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
